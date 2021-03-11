@@ -1,0 +1,7 @@
+<library path="sample_rviz_plugins">
+  <class name="sample_rviz_plugin/CloseAll" type="sample_rviz_plugins::CloseAllTool" base_class_type="rviz_common::Tool">
+    <description>
+      close all displays
+    </description>
+  </class>
+</library>
