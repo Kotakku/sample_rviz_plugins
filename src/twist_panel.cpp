@@ -200,6 +200,7 @@ void TwistPanel::tick()
             auto msg = std::make_shared<geometry_msgs::msg::TwistStamped>();
             msg->header.frame_id = pub_frame_;
             // msg->header.stamp = ros::Time::now();
+            msg->header.stamp = nh_->now();
             if (radio1_->isChecked())
             {
                 msg->twist.linear.x = -1 * vel_max1 * (touch_->y_value);
