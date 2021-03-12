@@ -23,6 +23,8 @@ public:
 protected:
     QHBoxLayout *layout_;
     // QPushButton* button_;
+
+    // rclcpp::Node::SharedPtr nh_;
 };
 
 }

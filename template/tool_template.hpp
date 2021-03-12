@@ -16,6 +16,8 @@ public:
     virtual void deactivate();
 
 protected:
+    // rclcpp::Node::SharedPtr nh_;
+    
 private:
 };
 

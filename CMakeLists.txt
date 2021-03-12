@@ -32,6 +32,7 @@ set(CMAKE_AUTOMOC ON)
 
 add_library(${PROJECT_NAME} SHARED
   src/close_all_tool.cpp
+  src/twist_panel.cpp
 )
 
 ament_target_dependencies(${PROJECT_NAME} 

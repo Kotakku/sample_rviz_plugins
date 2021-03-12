@@ -17,6 +17,8 @@ ToolTemplate::~ToolTemplate()
 
 void ToolTemplate::onInitialize()
 {
+    // nh_ = context_->getRosNodeAbstraction().lock()->get_raw_node();
+    
 }
 
 void ToolTemplate::activate()

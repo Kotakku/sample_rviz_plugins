@@ -2,10 +2,10 @@
 
 #include <rviz_common/config.hpp>
 
+#include <rviz_common/display_context.hpp>
 // #include <QVBoxLayout>
 // #include <QHBoxLayout>
 // #include <QSignalMapper>
-// #include <rviz_common/display_context.hpp>
 
 namespace sample_rviz_plugins
 {
@@ -17,6 +17,7 @@ PanelTemplate::PanelTemplate(QWidget *parent)
 
 void PanelTemplate::onInitialize()
 {
+    // nh_ = this->getDisplayContext()->getRosNodeAbstraction().lock()->get_raw_node();
 }
 
 void PanelTemplate::save(rviz_common::Config config) const

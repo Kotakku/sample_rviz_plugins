@@ -4,4 +4,7 @@
       close all displays
     </description>
   </class>
+  <class name="sample_rviz_plugin/TwistPanel" type="sample_rviz_plugins::TwistPanel" base_class_type="rviz_common::Panel">
+    <description>twist panel</description>
+  </class>
 </library>
