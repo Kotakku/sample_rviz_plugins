@@ -50,7 +50,7 @@ private Q_SLOTS:
     void updateHistoryLength();
 
 private:
-    // void processMessage(const geometry_msgs::msg::PointStamped::ConstPtr &msg);
+    // void processMessage(const geometry_msgs::PointStamped::ConstPtr &msg);
     void processMessage(geometry_msgs::msg::PointStamped::ConstSharedPtr msg) override;
     Ogre::SceneNode *frame_node_;
     //boost::shared_ptr<rviz::Arrow> vis_arrow_;
