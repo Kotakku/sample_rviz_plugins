@@ -33,11 +33,15 @@ set(CMAKE_AUTOMOC ON)
 add_library(${PROJECT_NAME} SHARED
   src/close_all_tool.cpp
   src/twist_panel.cpp
+  src/point_tool.cpp
+  src/point_display.cpp
+  src/log_display.cpp
 )
 
 ament_target_dependencies(${PROJECT_NAME} 
   rclcpp 
   rviz_common
+  rviz_rendering
 
   std_msgs
   geometry_msgs

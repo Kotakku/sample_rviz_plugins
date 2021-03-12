@@ -7,4 +7,16 @@
   <class name="sample_rviz_plugin/TwistPanel" type="sample_rviz_plugins::TwistPanel" base_class_type="rviz_common::Panel">
     <description>twist panel</description>
   </class>
+  <class name="sample_rviz_plugin/PointTool" type="sample_rviz_plugins::PointTool" base_class_type="rviz_common::Tool">
+    <description>put marker and publish PointStamped</description>
+  </class>
+
+  <class name="sample_rviz_plugin/PointDisplay" type="sample_rviz_plugins::PointDisplay" base_class_type="rviz_common::Display">
+    <description>display PointStamped</description>
+  </class>
+
+  <class name="sample_rviz_plugin/LogDisplay" type="sample_rviz_plugins::LogDisplay" base_class_type="rviz_common::Display">
+    <description>display rosout</description>
+  </class>
+
 </library>

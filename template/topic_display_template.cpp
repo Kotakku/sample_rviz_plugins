@@ -15,6 +15,7 @@ TopicDisplayTemplate::~TopicDisplayTemplate()
 
 void TopicDisplayTemplate::onInitialize()
 {
+    MFDClass::onInitialize();
 }
 
 void TopicDisplayTemplate::update(float wall_dt, float ros_dt)
@@ -32,6 +33,7 @@ void TopicDisplayTemplate::processMessage(std_msgs::msg::Float32::ConstSharedPtr
 
 void TopicDisplayTemplate::reset()
 {
+    MFDClass::reset();
 }
 
 void TopicDisplayTemplate::onEnable()
